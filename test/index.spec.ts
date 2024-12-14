@@ -8,12 +8,12 @@ import worker from '../src/index';
 const IncomingRequest = Request<unknown, IncomingRequestCfProperties>;
 
 describe('Hello World worker', () => {
-	it('responds with robots.txt', async () => {
-		const request = new IncomingRequest('http://example.com/robots.txt');
-		const ctx = createExecutionContext();
-		const response = await worker.fetch(request, env, ctx);
-		await waitOnExecutionContext(ctx);
-		expect(response.status).toBe(200);
-		expect(await response.text()).toContain('User-agent: *');
-	});
+  it('responds with robots.txt', async () => {
+    const request = new IncomingRequest('http://example.com/robots.txt');
+    const ctx = createExecutionContext();
+    const response = await worker.fetch(request, env, ctx);
+    await waitOnExecutionContext(ctx);
+    expect(response.status).toBe(200);
+    expect(await response.text()).toContain('User-agent: *');
+  });
 });
