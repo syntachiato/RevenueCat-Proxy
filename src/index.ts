@@ -24,7 +24,7 @@ export default {
 			return new Response(robots, { status: 200 });
 		}
 
-		const targetDomain = 'api.revnuecat.com';
+		const targetDomain = 'api.revenuecat.com';
 		const origin = `https://${targetDomain}`;
 		const actualUrl = new URL(`${origin}${pathname}${url.search}${url.hash}`);
 
