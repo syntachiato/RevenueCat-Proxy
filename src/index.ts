@@ -41,7 +41,6 @@ export default {
     }
 
     const modifiedRequest = new Request(actualUrl, modifiedRequestInit);
-
     const response = await fetch(modifiedRequest);
 
     let body = await response.arrayBuffer();
