@@ -11,3 +11,7 @@ The available `proxyURL` options when initializing the RevenueCat SDK are as fol
 | Swads    | https://purchase.swads.app |
 
 You can find the official documentation [here](https://www.revenuecat.com/docs/getting-started/configuring-sdk#configuration-for-users-in-mainland-china).
+
+## Credits
+
+- [cloudflare-proxy-sites](https://github.com/seadfeng/cloudflare-proxy-sites)
