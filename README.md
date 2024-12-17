@@ -6,7 +6,7 @@
 
 The available `proxyURL` options when initializing the RevenueCat SDK are as follows.
 
-|          | Purchase URL                 |
+| Provider | Proxy URL                    |
 | -------- | ---------------------------- |
 | Official | <https://api.revenuecat.com> |
 | Official | <https://api.rc-backup.com>  |
