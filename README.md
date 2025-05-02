@@ -13,7 +13,7 @@ The available `proxyURL` options when initializing the RevenueCat SDK are as fol
 | Official | <https://api.rc-backup.com>  |
 | Swads    | <https://purchase.swads.app> |
 
-You can find the official documentation [here](https://www.revenuecat.com/docs/getting-started/configuring-sdk#configuration-for-users-in-mainland-china).
+You can find the official documentation [here](https://www.revenuecat.com/docs/getting-started/configuring-sdk#proxies--configuration-for-users-in-mainland-china).
 
 ## Credits
 
